@@ -1,0 +1,1662 @@
+$VAR1 = {
+          'Africa/Abidjan' => [
+                                'CI',
+                                '24144888ca198b4d62258fb01cc9b855'
+                              ],
+          'Africa/Accra' => [
+                              'GH',
+                              '24144888ca198b4d62258fb01cc9b855'
+                            ],
+          'Africa/Addis_Ababa' => [
+                                    'ET',
+                                    'f2eeee1ebbf473c14b607b8c9f040665'
+                                  ],
+          'Africa/Algiers' => [
+                                'DZ',
+                                '84656a2648ca655037bc2b5c04bbb521'
+                              ],
+          'Africa/Asmara' => [
+                               'ER',
+                               'f2eeee1ebbf473c14b607b8c9f040665'
+                             ],
+          'Africa/Bamako' => [
+                               'ML',
+                               '24144888ca198b4d62258fb01cc9b855'
+                             ],
+          'Africa/Bangui' => [
+                               'CF',
+                               '84656a2648ca655037bc2b5c04bbb521'
+                             ],
+          'Africa/Banjul' => [
+                               'GM',
+                               '24144888ca198b4d62258fb01cc9b855'
+                             ],
+          'Africa/Bissau' => [
+                               'GW',
+                               '24144888ca198b4d62258fb01cc9b855'
+                             ],
+          'Africa/Blantyre' => [
+                                 'MW',
+                                 'f16cf7b0b4c3656c2df5180ab80322e1'
+                               ],
+          'Africa/Brazzaville' => [
+                                    'CG',
+                                    '84656a2648ca655037bc2b5c04bbb521'
+                                  ],
+          'Africa/Bujumbura' => [
+                                  'BI',
+                                  'f16cf7b0b4c3656c2df5180ab80322e1'
+                                ],
+          'Africa/Cairo' => [
+                              'EG',
+                              '7a1b129b41c2799408900ad957dcdd81'
+                            ],
+          'Africa/Casablanca' => [
+                                   'MA',
+                                   '155f15b816766c8292ef6efb249c4810'
+                                 ],
+          'Africa/Ceuta' => [
+                              'ES',
+                              '06d4e7875bf2712ea521577edf6f590b'
+                            ],
+          'Africa/Conakry' => [
+                                'GN',
+                                '24144888ca198b4d62258fb01cc9b855'
+                              ],
+          'Africa/Dakar' => [
+                              'SN',
+                              '24144888ca198b4d62258fb01cc9b855'
+                            ],
+          'Africa/Dar_es_Salaam' => [
+                                      'TZ',
+                                      'f2eeee1ebbf473c14b607b8c9f040665'
+                                    ],
+          'Africa/Djibouti' => [
+                                 'DJ',
+                                 'f2eeee1ebbf473c14b607b8c9f040665'
+                               ],
+          'Africa/Douala' => [
+                               'CM',
+                               '84656a2648ca655037bc2b5c04bbb521'
+                             ],
+          'Africa/El_Aaiun' => [
+                                 'EH',
+                                 '24144888ca198b4d62258fb01cc9b855'
+                               ],
+          'Africa/Freetown' => [
+                                 'SL',
+                                 '24144888ca198b4d62258fb01cc9b855'
+                               ],
+          'Africa/Gaborone' => [
+                                 'BW',
+                                 'f16cf7b0b4c3656c2df5180ab80322e1'
+                               ],
+          'Africa/Harare' => [
+                               'ZW',
+                               'f16cf7b0b4c3656c2df5180ab80322e1'
+                             ],
+          'Africa/Johannesburg' => [
+                                     'ZA',
+                                     'f16cf7b0b4c3656c2df5180ab80322e1'
+                                   ],
+          'Africa/Juba' => [
+                             'SS',
+                             'f2eeee1ebbf473c14b607b8c9f040665'
+                           ],
+          'Africa/Kampala' => [
+                                'UG',
+                                'f2eeee1ebbf473c14b607b8c9f040665'
+                              ],
+          'Africa/Khartoum' => [
+                                 'SD',
+                                 'f2eeee1ebbf473c14b607b8c9f040665'
+                               ],
+          'Africa/Kigali' => [
+                               'RW',
+                               'f16cf7b0b4c3656c2df5180ab80322e1'
+                             ],
+          'Africa/Kinshasa' => [
+                                 'CD',
+                                 '84656a2648ca655037bc2b5c04bbb521'
+                               ],
+          'Africa/Lagos' => [
+                              'NG',
+                              '84656a2648ca655037bc2b5c04bbb521'
+                            ],
+          'Africa/Libreville' => [
+                                   'GA',
+                                   '84656a2648ca655037bc2b5c04bbb521'
+                                 ],
+          'Africa/Lome' => [
+                             'TG',
+                             '24144888ca198b4d62258fb01cc9b855'
+                           ],
+          'Africa/Luanda' => [
+                               'AO',
+                               '84656a2648ca655037bc2b5c04bbb521'
+                             ],
+          'Africa/Lubumbashi' => [
+                                   'CD',
+                                   'f16cf7b0b4c3656c2df5180ab80322e1'
+                                 ],
+          'Africa/Lusaka' => [
+                               'ZM',
+                               'f16cf7b0b4c3656c2df5180ab80322e1'
+                             ],
+          'Africa/Malabo' => [
+                               'GQ',
+                               '84656a2648ca655037bc2b5c04bbb521'
+                             ],
+          'Africa/Maputo' => [
+                               'MZ',
+                               'f16cf7b0b4c3656c2df5180ab80322e1'
+                             ],
+          'Africa/Maseru' => [
+                               'LS',
+                               'f16cf7b0b4c3656c2df5180ab80322e1'
+                             ],
+          'Africa/Mbabane' => [
+                                'SZ',
+                                'f16cf7b0b4c3656c2df5180ab80322e1'
+                              ],
+          'Africa/Mogadishu' => [
+                                  'SO',
+                                  'f2eeee1ebbf473c14b607b8c9f040665'
+                                ],
+          'Africa/Monrovia' => [
+                                 'LR',
+                                 '24144888ca198b4d62258fb01cc9b855'
+                               ],
+          'Africa/Nairobi' => [
+                                'KE',
+                                'f2eeee1ebbf473c14b607b8c9f040665'
+                              ],
+          'Africa/Ndjamena' => [
+                                 'TD',
+                                 '84656a2648ca655037bc2b5c04bbb521'
+                               ],
+          'Africa/Niamey' => [
+                               'NE',
+                               '84656a2648ca655037bc2b5c04bbb521'
+                             ],
+          'Africa/Nouakchott' => [
+                                   'MR',
+                                   '24144888ca198b4d62258fb01cc9b855'
+                                 ],
+          'Africa/Ouagadougou' => [
+                                    'BF',
+                                    '24144888ca198b4d62258fb01cc9b855'
+                                  ],
+          'Africa/Porto-Novo' => [
+                                   'BJ',
+                                   '84656a2648ca655037bc2b5c04bbb521'
+                                 ],
+          'Africa/Sao_Tome' => [
+                                 'ST',
+                                 '24144888ca198b4d62258fb01cc9b855'
+                               ],
+          'Africa/Tripoli' => [
+                                'LY',
+                                'a2f16089d84421f59f5870fd711947f0'
+                              ],
+          'Africa/Tunis' => [
+                              'TN',
+                              '84656a2648ca655037bc2b5c04bbb521'
+                            ],
+          'Africa/Windhoek' => [
+                                 'NA',
+                                 '5922610700d9570d471f92ac20376055'
+                               ],
+          'America/Adak' => [
+                              'US',
+                              'e300c203a527a2992d767b52cc4b718f'
+                            ],
+          'America/Anchorage' => [
+                                   'US',
+                                   'babb35596b091a9bbdcf02bf2d197be0'
+                                 ],
+          'America/Anguilla' => [
+                                  'AI',
+                                  'ae04560f0742ce04c55516065720b52d'
+                                ],
+          'America/Antigua' => [
+                                 'AG',
+                                 'ae04560f0742ce04c55516065720b52d'
+                               ],
+          'America/Araguaina' => [
+                                   'BR',
+                                   'c7b48f35fd4031aad6204e37853cd205'
+                                 ],
+          'America/Argentina/Buenos_Aires' => [
+                                                'AR',
+                                                '2f1e6a1d5f745fab107ddb547522c654'
+                                              ],
+          'America/Argentina/Catamarca' => [
+                                             'AR',
+                                             '2f1e6a1d5f745fab107ddb547522c654'
+                                           ],
+          'America/Argentina/Cordoba' => [
+                                           'AR',
+                                           '2f1e6a1d5f745fab107ddb547522c654'
+                                         ],
+          'America/Argentina/Jujuy' => [
+                                         'AR',
+                                         '2f1e6a1d5f745fab107ddb547522c654'
+                                       ],
+          'America/Argentina/La_Rioja' => [
+                                            'AR',
+                                            '2f1e6a1d5f745fab107ddb547522c654'
+                                          ],
+          'America/Argentina/Mendoza' => [
+                                           'AR',
+                                           '2f1e6a1d5f745fab107ddb547522c654'
+                                         ],
+          'America/Argentina/Rio_Gallegos' => [
+                                                'AR',
+                                                '2f1e6a1d5f745fab107ddb547522c654'
+                                              ],
+          'America/Argentina/Salta' => [
+                                         'AR',
+                                         '2f1e6a1d5f745fab107ddb547522c654'
+                                       ],
+          'America/Argentina/San_Juan' => [
+                                            'AR',
+                                            '2f1e6a1d5f745fab107ddb547522c654'
+                                          ],
+          'America/Argentina/San_Luis' => [
+                                            'AR',
+                                            '7a1b129b41c2799408900ad957dcdd81'
+                                          ],
+          'America/Argentina/Tucuman' => [
+                                           'AR',
+                                           '2f1e6a1d5f745fab107ddb547522c654'
+                                         ],
+          'America/Argentina/Ushuaia' => [
+                                           'AR',
+                                           '2f1e6a1d5f745fab107ddb547522c654'
+                                         ],
+          'America/Aruba' => [
+                               'AW',
+                               'ae04560f0742ce04c55516065720b52d'
+                             ],
+          'America/Asuncion' => [
+                                  'PY',
+                                  'b57f8d2d87a2436f61d5b694e75dd2d9'
+                                ],
+          'America/Atikokan' => [
+                                  'CA',
+                                  '7b9f3f18986377137e9baf5ff2e2f5d2'
+                                ],
+          'America/Bahia' => [
+                               'BR',
+                               '2f1e6a1d5f745fab107ddb547522c654'
+                             ],
+          'America/Bahia_Banderas' => [
+                                        'MX',
+                                        '158f8a45a75f7923b65fef5d17a9588d'
+                                      ],
+          'America/Barbados' => [
+                                  'BB',
+                                  'ae04560f0742ce04c55516065720b52d'
+                                ],
+          'America/Belem' => [
+                               'BR',
+                               '2f1e6a1d5f745fab107ddb547522c654'
+                             ],
+          'America/Belize' => [
+                                'BZ',
+                                '5d57c2c780164899ff10634b621cc432'
+                              ],
+          'America/Blanc-Sablon' => [
+                                      'CA',
+                                      'ae04560f0742ce04c55516065720b52d'
+                                    ],
+          'America/Boa_Vista' => [
+                                   'BR',
+                                   'ae04560f0742ce04c55516065720b52d'
+                                 ],
+          'America/Bogota' => [
+                                'CO',
+                                '7b9f3f18986377137e9baf5ff2e2f5d2'
+                              ],
+          'America/Boise' => [
+                               'US',
+                               '2a155398df46f89725cf124b0243b49d'
+                             ],
+          'America/Cambridge_Bay' => [
+                                       'CA',
+                                       '2a155398df46f89725cf124b0243b49d'
+                                     ],
+          'America/Campo_Grande' => [
+                                      'BR',
+                                      '7721a853367328c157b2fe9fce88420e'
+                                    ],
+          'America/Cancun' => [
+                                'MX',
+                                '158f8a45a75f7923b65fef5d17a9588d'
+                              ],
+          'America/Caracas' => [
+                                 'VE',
+                                 'f91475f083632f4831a61f10477492ee'
+                               ],
+          'America/Cayenne' => [
+                                 'GF',
+                                 '2f1e6a1d5f745fab107ddb547522c654'
+                               ],
+          'America/Cayman' => [
+                                'KY',
+                                '7b9f3f18986377137e9baf5ff2e2f5d2'
+                              ],
+          'America/Chicago' => [
+                                 'US',
+                                 'd78b352a6c213dccd64a44a14a210167'
+                               ],
+          'America/Chihuahua' => [
+                                   'MX',
+                                   '54e755d4fb9521b289a06f717fc3e95e'
+                                 ],
+          'America/Costa_Rica' => [
+                                    'CR',
+                                    '5d57c2c780164899ff10634b621cc432'
+                                  ],
+          'America/Creston' => [
+                                 'CA',
+                                 'e35e7ca55edcaa84ef881e91602a5ac0'
+                               ],
+          'America/Cuiaba' => [
+                                'BR',
+                                '7721a853367328c157b2fe9fce88420e'
+                              ],
+          'America/Curacao' => [
+                                 'CW',
+                                 'ae04560f0742ce04c55516065720b52d'
+                               ],
+          'America/Danmarkshavn' => [
+                                      'GL',
+                                      '24144888ca198b4d62258fb01cc9b855'
+                                    ],
+          'America/Dawson' => [
+                                'CA',
+                                '5e742efffbc7d8440ff184b00b2bceb4'
+                              ],
+          'America/Dawson_Creek' => [
+                                      'CA',
+                                      'e35e7ca55edcaa84ef881e91602a5ac0'
+                                    ],
+          'America/Denver' => [
+                                'US',
+                                '2a155398df46f89725cf124b0243b49d'
+                              ],
+          'America/Detroit' => [
+                                 'US',
+                                 'be624d1b465108d8d5c12abf89e66167'
+                               ],
+          'America/Dominica' => [
+                                  'DM',
+                                  'ae04560f0742ce04c55516065720b52d'
+                                ],
+          'America/Edmonton' => [
+                                  'CA',
+                                  '2a155398df46f89725cf124b0243b49d'
+                                ],
+          'America/Eirunepe' => [
+                                  'BR',
+                                  'ae04560f0742ce04c55516065720b52d'
+                                ],
+          'America/El_Salvador' => [
+                                     'SV',
+                                     '5d57c2c780164899ff10634b621cc432'
+                                   ],
+          'America/Fortaleza' => [
+                                   'BR',
+                                   '2f1e6a1d5f745fab107ddb547522c654'
+                                 ],
+          'America/Glace_Bay' => [
+                                   'CA',
+                                   '4c0dca810b344d39b860a090a3dc852f'
+                                 ],
+          'America/Godthab' => [
+                                 'GL',
+                                 'f66c1c3e02c71f9c262b07370dfd1c15'
+                               ],
+          'America/Goose_Bay' => [
+                                   'CA',
+                                   '4c0dca810b344d39b860a090a3dc852f'
+                                 ],
+          'America/Grand_Turk' => [
+                                    'TC',
+                                    'be624d1b465108d8d5c12abf89e66167'
+                                  ],
+          'America/Grenada' => [
+                                 'GD',
+                                 'ae04560f0742ce04c55516065720b52d'
+                               ],
+          'America/Guadeloupe' => [
+                                    'GP',
+                                    'ae04560f0742ce04c55516065720b52d'
+                                  ],
+          'America/Guatemala' => [
+                                   'GT',
+                                   '5d57c2c780164899ff10634b621cc432'
+                                 ],
+          'America/Guayaquil' => [
+                                   'EC',
+                                   '7b9f3f18986377137e9baf5ff2e2f5d2'
+                                 ],
+          'America/Guyana' => [
+                                'GY',
+                                'ae04560f0742ce04c55516065720b52d'
+                              ],
+          'America/Halifax' => [
+                                 'CA',
+                                 '4c0dca810b344d39b860a090a3dc852f'
+                               ],
+          'America/Havana' => [
+                                'CU',
+                                'be624d1b465108d8d5c12abf89e66167'
+                              ],
+          'America/Hermosillo' => [
+                                    'MX',
+                                    'e35e7ca55edcaa84ef881e91602a5ac0'
+                                  ],
+          'America/Indiana/Indianapolis' => [
+                                              'US',
+                                              'be624d1b465108d8d5c12abf89e66167'
+                                            ],
+          'America/Indiana/Knox' => [
+                                      'US',
+                                      'd78b352a6c213dccd64a44a14a210167'
+                                    ],
+          'America/Indiana/Marengo' => [
+                                         'US',
+                                         'be624d1b465108d8d5c12abf89e66167'
+                                       ],
+          'America/Indiana/Petersburg' => [
+                                            'US',
+                                            'be624d1b465108d8d5c12abf89e66167'
+                                          ],
+          'America/Indiana/Tell_City' => [
+                                           'US',
+                                           'd78b352a6c213dccd64a44a14a210167'
+                                         ],
+          'America/Indiana/Vevay' => [
+                                       'US',
+                                       'be624d1b465108d8d5c12abf89e66167'
+                                     ],
+          'America/Indiana/Vincennes' => [
+                                           'US',
+                                           'be624d1b465108d8d5c12abf89e66167'
+                                         ],
+          'America/Indiana/Winamac' => [
+                                         'US',
+                                         'be624d1b465108d8d5c12abf89e66167'
+                                       ],
+          'America/Inuvik' => [
+                                'CA',
+                                '2a155398df46f89725cf124b0243b49d'
+                              ],
+          'America/Iqaluit' => [
+                                 'CA',
+                                 'be624d1b465108d8d5c12abf89e66167'
+                               ],
+          'America/Jamaica' => [
+                                 'JM',
+                                 '7b9f3f18986377137e9baf5ff2e2f5d2'
+                               ],
+          'America/Juneau' => [
+                                'US',
+                                'babb35596b091a9bbdcf02bf2d197be0'
+                              ],
+          'America/Kentucky/Louisville' => [
+                                             'US',
+                                             'be624d1b465108d8d5c12abf89e66167'
+                                           ],
+          'America/Kentucky/Monticello' => [
+                                             'US',
+                                             'be624d1b465108d8d5c12abf89e66167'
+                                           ],
+          'America/Kralendijk' => [
+                                    'BQ',
+                                    'ae04560f0742ce04c55516065720b52d'
+                                  ],
+          'America/La_Paz' => [
+                                'BO',
+                                'ae04560f0742ce04c55516065720b52d'
+                              ],
+          'America/Lima' => [
+                              'PE',
+                              '7b9f3f18986377137e9baf5ff2e2f5d2'
+                            ],
+          'America/Los_Angeles' => [
+                                     'US',
+                                     '5e742efffbc7d8440ff184b00b2bceb4'
+                                   ],
+          'America/Lower_Princes' => [
+                                       'SX',
+                                       'ae04560f0742ce04c55516065720b52d'
+                                     ],
+          'America/Maceio' => [
+                                'BR',
+                                '2f1e6a1d5f745fab107ddb547522c654'
+                              ],
+          'America/Managua' => [
+                                 'NI',
+                                 '5d57c2c780164899ff10634b621cc432'
+                               ],
+          'America/Manaus' => [
+                                'BR',
+                                'ae04560f0742ce04c55516065720b52d'
+                              ],
+          'America/Marigot' => [
+                                 'MF',
+                                 'ae04560f0742ce04c55516065720b52d'
+                               ],
+          'America/Martinique' => [
+                                    'MQ',
+                                    'ae04560f0742ce04c55516065720b52d'
+                                  ],
+          'America/Matamoros' => [
+                                   'MX',
+                                   'd78b352a6c213dccd64a44a14a210167'
+                                 ],
+          'America/Mazatlan' => [
+                                  'MX',
+                                  '54e755d4fb9521b289a06f717fc3e95e'
+                                ],
+          'America/Menominee' => [
+                                   'US',
+                                   'd78b352a6c213dccd64a44a14a210167'
+                                 ],
+          'America/Merida' => [
+                                'MX',
+                                '158f8a45a75f7923b65fef5d17a9588d'
+                              ],
+          'America/Metlakatla' => [
+                                    'US',
+                                    '10ee5b1ae612bc7ec254eb3566c7e1cd'
+                                  ],
+          'America/Mexico_City' => [
+                                     'MX',
+                                     '158f8a45a75f7923b65fef5d17a9588d'
+                                   ],
+          'America/Miquelon' => [
+                                  'PM',
+                                  '802e845a475774158ba689d6dc8061a1'
+                                ],
+          'America/Moncton' => [
+                                 'CA',
+                                 '4c0dca810b344d39b860a090a3dc852f'
+                               ],
+          'America/Monterrey' => [
+                                   'MX',
+                                   '158f8a45a75f7923b65fef5d17a9588d'
+                                 ],
+          'America/Montevideo' => [
+                                    'UY',
+                                    '3b6fc97da287821d5065d768b4b7146c'
+                                  ],
+          'America/Montreal' => [
+                                  'CA',
+                                  'be624d1b465108d8d5c12abf89e66167'
+                                ],
+          'America/Montserrat' => [
+                                    'MS',
+                                    'ae04560f0742ce04c55516065720b52d'
+                                  ],
+          'America/Nassau' => [
+                                'BS',
+                                'be624d1b465108d8d5c12abf89e66167'
+                              ],
+          'America/New_York' => [
+                                  'US',
+                                  'be624d1b465108d8d5c12abf89e66167'
+                                ],
+          'America/Nipigon' => [
+                                 'CA',
+                                 'be624d1b465108d8d5c12abf89e66167'
+                               ],
+          'America/Nome' => [
+                              'US',
+                              'babb35596b091a9bbdcf02bf2d197be0'
+                            ],
+          'America/Noronha' => [
+                                 'BR',
+                                 'c50e797cf1c1bf8e1aea8efafbbab20e'
+                               ],
+          'America/North_Dakota/Beulah' => [
+                                             'US',
+                                             'd78b352a6c213dccd64a44a14a210167'
+                                           ],
+          'America/North_Dakota/Center' => [
+                                             'US',
+                                             'd78b352a6c213dccd64a44a14a210167'
+                                           ],
+          'America/North_Dakota/New_Salem' => [
+                                                'US',
+                                                'd78b352a6c213dccd64a44a14a210167'
+                                              ],
+          'America/Ojinaga' => [
+                                 'MX',
+                                 '2a155398df46f89725cf124b0243b49d'
+                               ],
+          'America/Panama' => [
+                                'PA',
+                                '7b9f3f18986377137e9baf5ff2e2f5d2'
+                              ],
+          'America/Pangnirtung' => [
+                                     'CA',
+                                     'be624d1b465108d8d5c12abf89e66167'
+                                   ],
+          'America/Paramaribo' => [
+                                    'SR',
+                                    '2f1e6a1d5f745fab107ddb547522c654'
+                                  ],
+          'America/Phoenix' => [
+                                 'US',
+                                 'e35e7ca55edcaa84ef881e91602a5ac0'
+                               ],
+          'America/Port-au-Prince' => [
+                                        'HT',
+                                        '7b9f3f18986377137e9baf5ff2e2f5d2'
+                                      ],
+          'America/Port_of_Spain' => [
+                                       'TT',
+                                       'ae04560f0742ce04c55516065720b52d'
+                                     ],
+          'America/Porto_Velho' => [
+                                     'BR',
+                                     'ae04560f0742ce04c55516065720b52d'
+                                   ],
+          'America/Puerto_Rico' => [
+                                     'PR',
+                                     'ae04560f0742ce04c55516065720b52d'
+                                   ],
+          'America/Rainy_River' => [
+                                     'CA',
+                                     'd78b352a6c213dccd64a44a14a210167'
+                                   ],
+          'America/Rankin_Inlet' => [
+                                      'CA',
+                                      'd78b352a6c213dccd64a44a14a210167'
+                                    ],
+          'America/Recife' => [
+                                'BR',
+                                '2f1e6a1d5f745fab107ddb547522c654'
+                              ],
+          'America/Regina' => [
+                                'CA',
+                                '5d57c2c780164899ff10634b621cc432'
+                              ],
+          'America/Resolute' => [
+                                  'CA',
+                                  'd78b352a6c213dccd64a44a14a210167'
+                                ],
+          'America/Rio_Branco' => [
+                                    'BR',
+                                    'ae04560f0742ce04c55516065720b52d'
+                                  ],
+          'America/Santa_Isabel' => [
+                                      'MX',
+                                      '6bd3c0bbf8df9d67f320916bc6835adc'
+                                    ],
+          'America/Santarem' => [
+                                  'BR',
+                                  '2f1e6a1d5f745fab107ddb547522c654'
+                                ],
+          'America/Santiago' => [
+                                  'CL',
+                                  '549893073f424f8159f5016a06af3146'
+                                ],
+          'America/Santo_Domingo' => [
+                                       'DO',
+                                       'ae04560f0742ce04c55516065720b52d'
+                                     ],
+          'America/Sao_Paulo' => [
+                                   'BR',
+                                   'c7b48f35fd4031aad6204e37853cd205'
+                                 ],
+          'America/Scoresbysund' => [
+                                      'GL',
+                                      '7ce714bf300973eeb305980df6dae471'
+                                    ],
+          'America/Shiprock' => [
+                                  'US',
+                                  '2a155398df46f89725cf124b0243b49d'
+                                ],
+          'America/Sitka' => [
+                               'US',
+                               'babb35596b091a9bbdcf02bf2d197be0'
+                             ],
+          'America/St_Barthelemy' => [
+                                       'BL',
+                                       'ae04560f0742ce04c55516065720b52d'
+                                     ],
+          'America/St_Johns' => [
+                                  'CA',
+                                  '1827fe284f083b46dd1c4c1e93d558d3'
+                                ],
+          'America/St_Kitts' => [
+                                  'KN',
+                                  'ae04560f0742ce04c55516065720b52d'
+                                ],
+          'America/St_Lucia' => [
+                                  'LC',
+                                  'ae04560f0742ce04c55516065720b52d'
+                                ],
+          'America/St_Thomas' => [
+                                   'VI',
+                                   'ae04560f0742ce04c55516065720b52d'
+                                 ],
+          'America/St_Vincent' => [
+                                    'VC',
+                                    'ae04560f0742ce04c55516065720b52d'
+                                  ],
+          'America/Swift_Current' => [
+                                       'CA',
+                                       '5d57c2c780164899ff10634b621cc432'
+                                     ],
+          'America/Tegucigalpa' => [
+                                     'HN',
+                                     '5d57c2c780164899ff10634b621cc432'
+                                   ],
+          'America/Thule' => [
+                               'GL',
+                               '4c0dca810b344d39b860a090a3dc852f'
+                             ],
+          'America/Thunder_Bay' => [
+                                     'CA',
+                                     'be624d1b465108d8d5c12abf89e66167'
+                                   ],
+          'America/Tijuana' => [
+                                 'MX',
+                                 '5e742efffbc7d8440ff184b00b2bceb4'
+                               ],
+          'America/Toronto' => [
+                                 'CA',
+                                 'be624d1b465108d8d5c12abf89e66167'
+                               ],
+          'America/Tortola' => [
+                                 'VG',
+                                 'ae04560f0742ce04c55516065720b52d'
+                               ],
+          'America/Vancouver' => [
+                                   'CA',
+                                   '5e742efffbc7d8440ff184b00b2bceb4'
+                                 ],
+          'America/Whitehorse' => [
+                                    'CA',
+                                    '5e742efffbc7d8440ff184b00b2bceb4'
+                                  ],
+          'America/Winnipeg' => [
+                                  'CA',
+                                  'd78b352a6c213dccd64a44a14a210167'
+                                ],
+          'America/Yakutat' => [
+                                 'US',
+                                 'babb35596b091a9bbdcf02bf2d197be0'
+                               ],
+          'America/Yellowknife' => [
+                                     'CA',
+                                     '2a155398df46f89725cf124b0243b49d'
+                                   ],
+          'Antarctica/Casey' => [
+                                  'AQ',
+                                  '219232b0bf212f2869aa005010144c6b'
+                                ],
+          'Antarctica/Davis' => [
+                                  'AQ',
+                                  '54c33cc001282b14021008272e9b3387'
+                                ],
+          'Antarctica/DumontDUrville' => [
+                                           'AQ',
+                                           '57445e5cb03e7a352347d9206f987230'
+                                         ],
+          'Antarctica/Macquarie' => [
+                                      'AQ',
+                                      '12b93a93420453528cfc205febd360b5'
+                                    ],
+          'Antarctica/Mawson' => [
+                                   'AQ',
+                                   '18f6f923530086b878ebf6241cc2c620'
+                                 ],
+          'Antarctica/McMurdo' => [
+                                    'AQ',
+                                    'f99fb40641335f61c9d042d4c99da2bb'
+                                  ],
+          'Antarctica/Palmer' => [
+                                   'AQ',
+                                   '549893073f424f8159f5016a06af3146'
+                                 ],
+          'Antarctica/Rothera' => [
+                                    'AQ',
+                                    '2f1e6a1d5f745fab107ddb547522c654'
+                                  ],
+          'Antarctica/South_Pole' => [
+                                       'AQ',
+                                       'f99fb40641335f61c9d042d4c99da2bb'
+                                     ],
+          'Antarctica/Syowa' => [
+                                  'AQ',
+                                  'f2eeee1ebbf473c14b607b8c9f040665'
+                                ],
+          'Antarctica/Vostok' => [
+                                   'AQ',
+                                   '51f1ab0f4536e49bcdf94787065d919a'
+                                 ],
+          'Arctic/Longyearbyen' => [
+                                     'SJ',
+                                     '06d4e7875bf2712ea521577edf6f590b'
+                                   ],
+          'Asia/Aden' => [
+                           'YE',
+                           'f2eeee1ebbf473c14b607b8c9f040665'
+                         ],
+          'Asia/Almaty' => [
+                             'KZ',
+                             '51f1ab0f4536e49bcdf94787065d919a'
+                           ],
+          'Asia/Amman' => [
+                            'JO',
+                            '49b6a890aac390f414521fb15c8fae83'
+                          ],
+          'Asia/Anadyr' => [
+                             'RU',
+                             '69f60db3823adea580132cefbf2b19b7'
+                           ],
+          'Asia/Aqtau' => [
+                            'KZ',
+                            '18f6f923530086b878ebf6241cc2c620'
+                          ],
+          'Asia/Aqtobe' => [
+                             'KZ',
+                             '18f6f923530086b878ebf6241cc2c620'
+                           ],
+          'Asia/Ashgabat' => [
+                               'TM',
+                               '18f6f923530086b878ebf6241cc2c620'
+                             ],
+          'Asia/Baghdad' => [
+                              'IQ',
+                              'f2eeee1ebbf473c14b607b8c9f040665'
+                            ],
+          'Asia/Bahrain' => [
+                              'BH',
+                              'f2eeee1ebbf473c14b607b8c9f040665'
+                            ],
+          'Asia/Baku' => [
+                           'AZ',
+                           '43dc2bfeaee588ed09c60d5e3b3c63b3'
+                         ],
+          'Asia/Bangkok' => [
+                              'TH',
+                              '54c33cc001282b14021008272e9b3387'
+                            ],
+          'Asia/Beirut' => [
+                             'LB',
+                             '5f232c1095d16eb6b1be228181a681eb'
+                           ],
+          'Asia/Bishkek' => [
+                              'KG',
+                              '51f1ab0f4536e49bcdf94787065d919a'
+                            ],
+          'Asia/Brunei' => [
+                             'BN',
+                             '219232b0bf212f2869aa005010144c6b'
+                           ],
+          'Asia/Choibalsan' => [
+                                 'MN',
+                                 '219232b0bf212f2869aa005010144c6b'
+                               ],
+          'Asia/Chongqing' => [
+                                'CN',
+                                '219232b0bf212f2869aa005010144c6b'
+                              ],
+          'Asia/Colombo' => [
+                              'LK',
+                              '05c290f93f1321b2b5f19b8e59a9bde0'
+                            ],
+          'Asia/Damascus' => [
+                               'SY',
+                               '71949fc3bbcb4d88d0e7b11813396d86'
+                             ],
+          'Asia/Dhaka' => [
+                            'BD',
+                            '51f1ab0f4536e49bcdf94787065d919a'
+                          ],
+          'Asia/Dili' => [
+                           'TL',
+                           'ed84c5973a5b1c021c56610398474c6c'
+                         ],
+          'Asia/Dubai' => [
+                            'AE',
+                            'c1e82342921a240998e9f7ea082aff13'
+                          ],
+          'Asia/Dushanbe' => [
+                               'TJ',
+                               '18f6f923530086b878ebf6241cc2c620'
+                             ],
+          'Asia/Gaza' => [
+                           'PS',
+                           'f16cf7b0b4c3656c2df5180ab80322e1'
+                         ],
+          'Asia/Harbin' => [
+                             'CN',
+                             '219232b0bf212f2869aa005010144c6b'
+                           ],
+          'Asia/Hebron' => [
+                             'PS',
+                             'f16cf7b0b4c3656c2df5180ab80322e1'
+                           ],
+          'Asia/Ho_Chi_Minh' => [
+                                  'VN',
+                                  '54c33cc001282b14021008272e9b3387'
+                                ],
+          'Asia/Hong_Kong' => [
+                                'HK',
+                                '219232b0bf212f2869aa005010144c6b'
+                              ],
+          'Asia/Hovd' => [
+                           'MN',
+                           '54c33cc001282b14021008272e9b3387'
+                         ],
+          'Asia/Irkutsk' => [
+                              'RU',
+                              'ed84c5973a5b1c021c56610398474c6c'
+                            ],
+          'Asia/Jakarta' => [
+                              'ID',
+                              '54c33cc001282b14021008272e9b3387'
+                            ],
+          'Asia/Jayapura' => [
+                               'ID',
+                               'ed84c5973a5b1c021c56610398474c6c'
+                             ],
+          'Asia/Jerusalem' => [
+                                'IL',
+                                '316ce8c0efc66fcad194f0a10bf16b87'
+                              ],
+          'Asia/Kabul' => [
+                            'AF',
+                            '83bd26caf6328689bc0bed1d7cbbb56c'
+                          ],
+          'Asia/Kamchatka' => [
+                                'RU',
+                                '69f60db3823adea580132cefbf2b19b7'
+                              ],
+          'Asia/Karachi' => [
+                              'PK',
+                              '18f6f923530086b878ebf6241cc2c620'
+                            ],
+          'Asia/Kashgar' => [
+                              'CN',
+                              '219232b0bf212f2869aa005010144c6b'
+                            ],
+          'Asia/Kathmandu' => [
+                                'NP',
+                                '60abd8c16b7a155f20e9fdd18e087b68'
+                              ],
+          'Asia/Kolkata' => [
+                              'IN',
+                              '05c290f93f1321b2b5f19b8e59a9bde0'
+                            ],
+          'Asia/Krasnoyarsk' => [
+                                  'RU',
+                                  '219232b0bf212f2869aa005010144c6b'
+                                ],
+          'Asia/Kuala_Lumpur' => [
+                                   'MY',
+                                   '219232b0bf212f2869aa005010144c6b'
+                                 ],
+          'Asia/Kuching' => [
+                              'MY',
+                              '219232b0bf212f2869aa005010144c6b'
+                            ],
+          'Asia/Kuwait' => [
+                             'KW',
+                             'f2eeee1ebbf473c14b607b8c9f040665'
+                           ],
+          'Asia/Macau' => [
+                            'MO',
+                            '219232b0bf212f2869aa005010144c6b'
+                          ],
+          'Asia/Magadan' => [
+                              'RU',
+                              '69f60db3823adea580132cefbf2b19b7'
+                            ],
+          'Asia/Makassar' => [
+                               'ID',
+                               '219232b0bf212f2869aa005010144c6b'
+                             ],
+          'Asia/Manila' => [
+                             'PH',
+                             '219232b0bf212f2869aa005010144c6b'
+                           ],
+          'Asia/Muscat' => [
+                             'OM',
+                             'c1e82342921a240998e9f7ea082aff13'
+                           ],
+          'Asia/Nicosia' => [
+                              'CY',
+                              '5f232c1095d16eb6b1be228181a681eb'
+                            ],
+          'Asia/Novokuznetsk' => [
+                                   'RU',
+                                   '54c33cc001282b14021008272e9b3387'
+                                 ],
+          'Asia/Novosibirsk' => [
+                                  'RU',
+                                  '54c33cc001282b14021008272e9b3387'
+                                ],
+          'Asia/Omsk' => [
+                           'RU',
+                           '54c33cc001282b14021008272e9b3387'
+                         ],
+          'Asia/Oral' => [
+                           'KZ',
+                           '18f6f923530086b878ebf6241cc2c620'
+                         ],
+          'Asia/Phnom_Penh' => [
+                                 'KH',
+                                 '54c33cc001282b14021008272e9b3387'
+                               ],
+          'Asia/Pontianak' => [
+                                'ID',
+                                '54c33cc001282b14021008272e9b3387'
+                              ],
+          'Asia/Pyongyang' => [
+                                'KP',
+                                'ed84c5973a5b1c021c56610398474c6c'
+                              ],
+          'Asia/Qatar' => [
+                            'QA',
+                            'f2eeee1ebbf473c14b607b8c9f040665'
+                          ],
+          'Asia/Qyzylorda' => [
+                                'KZ',
+                                '51f1ab0f4536e49bcdf94787065d919a'
+                              ],
+          'Asia/Rangoon' => [
+                              'MM',
+                              '7cbe7b3ba929396263e5010744a73d0a'
+                            ],
+          'Asia/Riyadh' => [
+                             'SA',
+                             'f2eeee1ebbf473c14b607b8c9f040665'
+                           ],
+          'Asia/Sakhalin' => [
+                               'RU',
+                               '12b93a93420453528cfc205febd360b5'
+                             ],
+          'Asia/Samarkand' => [
+                                'UZ',
+                                '18f6f923530086b878ebf6241cc2c620'
+                              ],
+          'Asia/Seoul' => [
+                            'KR',
+                            'ed84c5973a5b1c021c56610398474c6c'
+                          ],
+          'Asia/Shanghai' => [
+                               'CN',
+                               '219232b0bf212f2869aa005010144c6b'
+                             ],
+          'Asia/Singapore' => [
+                                'SG',
+                                '219232b0bf212f2869aa005010144c6b'
+                              ],
+          'Asia/Taipei' => [
+                             'TW',
+                             '219232b0bf212f2869aa005010144c6b'
+                           ],
+          'Asia/Tashkent' => [
+                               'UZ',
+                               '18f6f923530086b878ebf6241cc2c620'
+                             ],
+          'Asia/Tbilisi' => [
+                              'GE',
+                              'c1e82342921a240998e9f7ea082aff13'
+                            ],
+          'Asia/Tehran' => [
+                             'IR',
+                             '695230b197c79ff53dad805e79bb9731'
+                           ],
+          'Asia/Thimphu' => [
+                              'BT',
+                              '51f1ab0f4536e49bcdf94787065d919a'
+                            ],
+          'Asia/Tokyo' => [
+                            'JP',
+                            'ed84c5973a5b1c021c56610398474c6c'
+                          ],
+          'Asia/Ulaanbaatar' => [
+                                  'MN',
+                                  '219232b0bf212f2869aa005010144c6b'
+                                ],
+          'Asia/Urumqi' => [
+                             'CN',
+                             '219232b0bf212f2869aa005010144c6b'
+                           ],
+          'Asia/Vientiane' => [
+                                'LA',
+                                '54c33cc001282b14021008272e9b3387'
+                              ],
+          'Asia/Vladivostok' => [
+                                  'RU',
+                                  '12b93a93420453528cfc205febd360b5'
+                                ],
+          'Asia/Yakutsk' => [
+                              'RU',
+                              '57445e5cb03e7a352347d9206f987230'
+                            ],
+          'Asia/Yekaterinburg' => [
+                                    'RU',
+                                    '51f1ab0f4536e49bcdf94787065d919a'
+                                  ],
+          'Asia/Yerevan' => [
+                              'AM',
+                              'c1e82342921a240998e9f7ea082aff13'
+                            ],
+          'Atlantic/Azores' => [
+                                 'PT',
+                                 '7ce714bf300973eeb305980df6dae471'
+                               ],
+          'Atlantic/Bermuda' => [
+                                  'BM',
+                                  '4c0dca810b344d39b860a090a3dc852f'
+                                ],
+          'Atlantic/Canary' => [
+                                 'ES',
+                                 'be08306e5b8d435618c059036e3b5d6d'
+                               ],
+          'Atlantic/Cape_Verde' => [
+                                     'CV',
+                                     '8ac4bd9dd5b2074adbcfb906a7179ad6'
+                                   ],
+          'Atlantic/Faroe' => [
+                                'FO',
+                                'be08306e5b8d435618c059036e3b5d6d'
+                              ],
+          'Atlantic/Madeira' => [
+                                  'PT',
+                                  'be08306e5b8d435618c059036e3b5d6d'
+                                ],
+          'Atlantic/Reykjavik' => [
+                                    'IS',
+                                    '24144888ca198b4d62258fb01cc9b855'
+                                  ],
+          'Atlantic/South_Georgia' => [
+                                        'GS',
+                                        'c50e797cf1c1bf8e1aea8efafbbab20e'
+                                      ],
+          'Atlantic/St_Helena' => [
+                                    'SH',
+                                    '24144888ca198b4d62258fb01cc9b855'
+                                  ],
+          'Atlantic/Stanley' => [
+                                  'FK',
+                                  '2f1e6a1d5f745fab107ddb547522c654'
+                                ],
+          'Australia/Adelaide' => [
+                                    'AU',
+                                    'cb967adc97f10b5fd816ae027d8a630f'
+                                  ],
+          'Australia/Brisbane' => [
+                                    'AU',
+                                    '57445e5cb03e7a352347d9206f987230'
+                                  ],
+          'Australia/Broken_Hill' => [
+                                       'AU',
+                                       'cb967adc97f10b5fd816ae027d8a630f'
+                                     ],
+          'Australia/Currie' => [
+                                  'AU',
+                                  '7b1da25dbf7c90f3acc05fe769e257b0'
+                                ],
+          'Australia/Darwin' => [
+                                  'AU',
+                                  'e0becfc50320530e351bcee07887a0f9'
+                                ],
+          'Australia/Eucla' => [
+                                 'AU',
+                                 '640ca5da539d62f0f51ca324196b3101'
+                               ],
+          'Australia/Hobart' => [
+                                  'AU',
+                                  '7b1da25dbf7c90f3acc05fe769e257b0'
+                                ],
+          'Australia/Lindeman' => [
+                                    'AU',
+                                    '57445e5cb03e7a352347d9206f987230'
+                                  ],
+          'Australia/Lord_Howe' => [
+                                     'AU',
+                                     'dab53306481ba6ea0c28e929d1bf0793'
+                                   ],
+          'Australia/Melbourne' => [
+                                     'AU',
+                                     '7b1da25dbf7c90f3acc05fe769e257b0'
+                                   ],
+          'Australia/Perth' => [
+                                 'AU',
+                                 '219232b0bf212f2869aa005010144c6b'
+                               ],
+          'Australia/Sydney' => [
+                                  'AU',
+                                  '7b1da25dbf7c90f3acc05fe769e257b0'
+                                ],
+          'Europe/Amsterdam' => [
+                                  'NL',
+                                  '06d4e7875bf2712ea521577edf6f590b'
+                                ],
+          'Europe/Andorra' => [
+                                'AD',
+                                '06d4e7875bf2712ea521577edf6f590b'
+                              ],
+          'Europe/Athens' => [
+                               'GR',
+                               '5f232c1095d16eb6b1be228181a681eb'
+                             ],
+          'Europe/Belgrade' => [
+                                 'RS',
+                                 '06d4e7875bf2712ea521577edf6f590b'
+                               ],
+          'Europe/Berlin' => [
+                               'DE',
+                               '06d4e7875bf2712ea521577edf6f590b'
+                             ],
+          'Europe/Bratislava' => [
+                                   'SK',
+                                   '06d4e7875bf2712ea521577edf6f590b'
+                                 ],
+          'Europe/Brussels' => [
+                                 'BE',
+                                 '06d4e7875bf2712ea521577edf6f590b'
+                               ],
+          'Europe/Bucharest' => [
+                                  'RO',
+                                  '5f232c1095d16eb6b1be228181a681eb'
+                                ],
+          'Europe/Budapest' => [
+                                 'HU',
+                                 '06d4e7875bf2712ea521577edf6f590b'
+                               ],
+          'Europe/Chisinau' => [
+                                 'MD',
+                                 '5f232c1095d16eb6b1be228181a681eb'
+                               ],
+          'Europe/Copenhagen' => [
+                                   'DK',
+                                   '06d4e7875bf2712ea521577edf6f590b'
+                                 ],
+          'Europe/Dublin' => [
+                               'IE',
+                               'be08306e5b8d435618c059036e3b5d6d'
+                             ],
+          'Europe/Gibraltar' => [
+                                  'GI',
+                                  '06d4e7875bf2712ea521577edf6f590b'
+                                ],
+          'Europe/Guernsey' => [
+                                 'GG',
+                                 'be08306e5b8d435618c059036e3b5d6d'
+                               ],
+          'Europe/Helsinki' => [
+                                 'FI',
+                                 '5f232c1095d16eb6b1be228181a681eb'
+                               ],
+          'Europe/Isle_of_Man' => [
+                                    'IM',
+                                    'be08306e5b8d435618c059036e3b5d6d'
+                                  ],
+          'Europe/Istanbul' => [
+                                 'TR',
+                                 '5f232c1095d16eb6b1be228181a681eb'
+                               ],
+          'Europe/Jersey' => [
+                               'JE',
+                               'be08306e5b8d435618c059036e3b5d6d'
+                             ],
+          'Europe/Kaliningrad' => [
+                                    'RU',
+                                    'f2eeee1ebbf473c14b607b8c9f040665'
+                                  ],
+          'Europe/Kiev' => [
+                             'UA',
+                             '5f232c1095d16eb6b1be228181a681eb'
+                           ],
+          'Europe/Lisbon' => [
+                               'PT',
+                               'be08306e5b8d435618c059036e3b5d6d'
+                             ],
+          'Europe/Ljubljana' => [
+                                  'SI',
+                                  '06d4e7875bf2712ea521577edf6f590b'
+                                ],
+          'Europe/London' => [
+                               'GB',
+                               'be08306e5b8d435618c059036e3b5d6d'
+                             ],
+          'Europe/Luxembourg' => [
+                                   'LU',
+                                   '06d4e7875bf2712ea521577edf6f590b'
+                                 ],
+          'Europe/Madrid' => [
+                               'ES',
+                               '06d4e7875bf2712ea521577edf6f590b'
+                             ],
+          'Europe/Malta' => [
+                              'MT',
+                              '06d4e7875bf2712ea521577edf6f590b'
+                            ],
+          'Europe/Mariehamn' => [
+                                  'AX',
+                                  '5f232c1095d16eb6b1be228181a681eb'
+                                ],
+          'Europe/Minsk' => [
+                              'BY',
+                              'f2eeee1ebbf473c14b607b8c9f040665'
+                            ],
+          'Europe/Monaco' => [
+                               'MC',
+                               '06d4e7875bf2712ea521577edf6f590b'
+                             ],
+          'Europe/Moscow' => [
+                               'RU',
+                               'c1e82342921a240998e9f7ea082aff13'
+                             ],
+          'Europe/Oslo' => [
+                             'NO',
+                             '06d4e7875bf2712ea521577edf6f590b'
+                           ],
+          'Europe/Paris' => [
+                              'FR',
+                              '06d4e7875bf2712ea521577edf6f590b'
+                            ],
+          'Europe/Podgorica' => [
+                                  'ME',
+                                  '06d4e7875bf2712ea521577edf6f590b'
+                                ],
+          'Europe/Prague' => [
+                               'CZ',
+                               '06d4e7875bf2712ea521577edf6f590b'
+                             ],
+          'Europe/Riga' => [
+                             'LV',
+                             '5f232c1095d16eb6b1be228181a681eb'
+                           ],
+          'Europe/Rome' => [
+                             'IT',
+                             '06d4e7875bf2712ea521577edf6f590b'
+                           ],
+          'Europe/Samara' => [
+                               'RU',
+                               'c1e82342921a240998e9f7ea082aff13'
+                             ],
+          'Europe/San_Marino' => [
+                                   'SM',
+                                   '06d4e7875bf2712ea521577edf6f590b'
+                                 ],
+          'Europe/Sarajevo' => [
+                                 'BA',
+                                 '06d4e7875bf2712ea521577edf6f590b'
+                               ],
+          'Europe/Simferopol' => [
+                                   'UA',
+                                   '5f232c1095d16eb6b1be228181a681eb'
+                                 ],
+          'Europe/Skopje' => [
+                               'MK',
+                               '06d4e7875bf2712ea521577edf6f590b'
+                             ],
+          'Europe/Sofia' => [
+                              'BG',
+                              '5f232c1095d16eb6b1be228181a681eb'
+                            ],
+          'Europe/Stockholm' => [
+                                  'SE',
+                                  '06d4e7875bf2712ea521577edf6f590b'
+                                ],
+          'Europe/Tallinn' => [
+                                'EE',
+                                '5f232c1095d16eb6b1be228181a681eb'
+                              ],
+          'Europe/Tirane' => [
+                               'AL',
+                               '06d4e7875bf2712ea521577edf6f590b'
+                             ],
+          'Europe/Uzhgorod' => [
+                                 'UA',
+                                 '5f232c1095d16eb6b1be228181a681eb'
+                               ],
+          'Europe/Vaduz' => [
+                              'LI',
+                              '06d4e7875bf2712ea521577edf6f590b'
+                            ],
+          'Europe/Vatican' => [
+                                'VA',
+                                '06d4e7875bf2712ea521577edf6f590b'
+                              ],
+          'Europe/Vienna' => [
+                               'AT',
+                               '06d4e7875bf2712ea521577edf6f590b'
+                             ],
+          'Europe/Vilnius' => [
+                                'LT',
+                                '5f232c1095d16eb6b1be228181a681eb'
+                              ],
+          'Europe/Volgograd' => [
+                                  'RU',
+                                  'c1e82342921a240998e9f7ea082aff13'
+                                ],
+          'Europe/Warsaw' => [
+                               'PL',
+                               '06d4e7875bf2712ea521577edf6f590b'
+                             ],
+          'Europe/Zagreb' => [
+                               'HR',
+                               '06d4e7875bf2712ea521577edf6f590b'
+                             ],
+          'Europe/Zaporozhye' => [
+                                   'UA',
+                                   '5f232c1095d16eb6b1be228181a681eb'
+                                 ],
+          'Europe/Zurich' => [
+                               'CH',
+                               '06d4e7875bf2712ea521577edf6f590b'
+                             ],
+          'Indian/Antananarivo' => [
+                                     'MG',
+                                     'f2eeee1ebbf473c14b607b8c9f040665'
+                                   ],
+          'Indian/Chagos' => [
+                               'IO',
+                               '51f1ab0f4536e49bcdf94787065d919a'
+                             ],
+          'Indian/Christmas' => [
+                                  'CX',
+                                  '54c33cc001282b14021008272e9b3387'
+                                ],
+          'Indian/Cocos' => [
+                              'CC',
+                              '7cbe7b3ba929396263e5010744a73d0a'
+                            ],
+          'Indian/Comoro' => [
+                               'KM',
+                               'f2eeee1ebbf473c14b607b8c9f040665'
+                             ],
+          'Indian/Kerguelen' => [
+                                  'TF',
+                                  '18f6f923530086b878ebf6241cc2c620'
+                                ],
+          'Indian/Mahe' => [
+                             'SC',
+                             'c1e82342921a240998e9f7ea082aff13'
+                           ],
+          'Indian/Maldives' => [
+                                 'MV',
+                                 '18f6f923530086b878ebf6241cc2c620'
+                               ],
+          'Indian/Mauritius' => [
+                                  'MU',
+                                  'c1e82342921a240998e9f7ea082aff13'
+                                ],
+          'Indian/Mayotte' => [
+                                'YT',
+                                'f2eeee1ebbf473c14b607b8c9f040665'
+                              ],
+          'Indian/Reunion' => [
+                                'RE',
+                                'c1e82342921a240998e9f7ea082aff13'
+                              ],
+          'Pacific/Apia' => [
+                              'WS',
+                              '306a5d00b9d6a5cfaa54057584d0125a'
+                            ],
+          'Pacific/Auckland' => [
+                                  'NZ',
+                                  'f99fb40641335f61c9d042d4c99da2bb'
+                                ],
+          'Pacific/Chatham' => [
+                                 'NZ',
+                                 'e5f957288ab2ea51a06063ce9f1002e8'
+                               ],
+          'Pacific/Chuuk' => [
+                               'FM',
+                               '57445e5cb03e7a352347d9206f987230'
+                             ],
+          'Pacific/Easter' => [
+                                'CL',
+                                '8fa2ad3e709504a5280516b55d88c1a8'
+                              ],
+          'Pacific/Efate' => [
+                               'VU',
+                               '12b93a93420453528cfc205febd360b5'
+                             ],
+          'Pacific/Enderbury' => [
+                                   'KI',
+                                   'a3c00974b81f191babeda8822cff7950'
+                                 ],
+          'Pacific/Fakaofo' => [
+                                 'TK',
+                                 'a3c00974b81f191babeda8822cff7950'
+                               ],
+          'Pacific/Fiji' => [
+                              'FJ',
+                              '31082fa760107804d251a8b6c8f1fd95'
+                            ],
+          'Pacific/Funafuti' => [
+                                  'TV',
+                                  '69f60db3823adea580132cefbf2b19b7'
+                                ],
+          'Pacific/Galapagos' => [
+                                   'EC',
+                                   '5d57c2c780164899ff10634b621cc432'
+                                 ],
+          'Pacific/Gambier' => [
+                                 'PF',
+                                 '4aa431520a2016253f653728d0917edb'
+                               ],
+          'Pacific/Guadalcanal' => [
+                                     'SB',
+                                     '12b93a93420453528cfc205febd360b5'
+                                   ],
+          'Pacific/Guam' => [
+                              'GU',
+                              '57445e5cb03e7a352347d9206f987230'
+                            ],
+          'Pacific/Honolulu' => [
+                                  'US',
+                                  'ce3c5cb14b6dc7befb07bf017c2b4cd4'
+                                ],
+          'Pacific/Johnston' => [
+                                  'UM',
+                                  'ce3c5cb14b6dc7befb07bf017c2b4cd4'
+                                ],
+          'Pacific/Kiritimati' => [
+                                    'KI',
+                                    '7fc1c3d95d387776f76928a0b69f0609'
+                                  ],
+          'Pacific/Kosrae' => [
+                                'FM',
+                                '12b93a93420453528cfc205febd360b5'
+                              ],
+          'Pacific/Kwajalein' => [
+                                   'MH',
+                                   '69f60db3823adea580132cefbf2b19b7'
+                                 ],
+          'Pacific/Majuro' => [
+                                'MH',
+                                '69f60db3823adea580132cefbf2b19b7'
+                              ],
+          'Pacific/Marquesas' => [
+                                   'PF',
+                                   '4e82424f09bf10399ff136b978e2754a'
+                                 ],
+          'Pacific/Midway' => [
+                                'UM',
+                                '3277225b4480c834cd5be5e2044e44d0'
+                              ],
+          'Pacific/Nauru' => [
+                               'NR',
+                               '69f60db3823adea580132cefbf2b19b7'
+                             ],
+          'Pacific/Niue' => [
+                              'NU',
+                              '3277225b4480c834cd5be5e2044e44d0'
+                            ],
+          'Pacific/Norfolk' => [
+                                 'NF',
+                                 '7e036f52a181a045caf7ddb42ca025d4'
+                               ],
+          'Pacific/Noumea' => [
+                                'NC',
+                                '12b93a93420453528cfc205febd360b5'
+                              ],
+          'Pacific/Pago_Pago' => [
+                                   'AS',
+                                   '3277225b4480c834cd5be5e2044e44d0'
+                                 ],
+          'Pacific/Palau' => [
+                               'PW',
+                               'ed84c5973a5b1c021c56610398474c6c'
+                             ],
+          'Pacific/Pitcairn' => [
+                                  'PN',
+                                  '10ee5b1ae612bc7ec254eb3566c7e1cd'
+                                ],
+          'Pacific/Pohnpei' => [
+                                 'FM',
+                                 '12b93a93420453528cfc205febd360b5'
+                               ],
+          'Pacific/Port_Moresby' => [
+                                      'PG',
+                                      '57445e5cb03e7a352347d9206f987230'
+                                    ],
+          'Pacific/Rarotonga' => [
+                                   'CK',
+                                   'ce3c5cb14b6dc7befb07bf017c2b4cd4'
+                                 ],
+          'Pacific/Saipan' => [
+                                'MP',
+                                '57445e5cb03e7a352347d9206f987230'
+                              ],
+          'Pacific/Tahiti' => [
+                                'PF',
+                                'ce3c5cb14b6dc7befb07bf017c2b4cd4'
+                              ],
+          'Pacific/Tarawa' => [
+                                'KI',
+                                '69f60db3823adea580132cefbf2b19b7'
+                              ],
+          'Pacific/Tongatapu' => [
+                                   'TO',
+                                   'a3c00974b81f191babeda8822cff7950'
+                                 ],
+          'Pacific/Wake' => [
+                              'UM',
+                              '69f60db3823adea580132cefbf2b19b7'
+                            ],
+          'Pacific/Wallis' => [
+                                'WF',
+                                '69f60db3823adea580132cefbf2b19b7'
+                              ]
+        };
