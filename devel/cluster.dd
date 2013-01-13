@@ -1138,7 +1138,7 @@ $VAR1 = {
                                                                                            'offset' => '-5',
                                                                                            'olson_description' => 'Eastern Time - Ontario - most locations',
                                                                                            'timezone_name' => 'America/Toronto'
-                                                                                         }
+                                                                                         },
                                                                                          {
                                                                                            'offset' => -5,
                                                                                            'olson_description' => 'Eastern Time - Pangnirtung, Nunavut',
@@ -4346,7 +4346,7 @@ $VAR1 = {
                                                                                            'offset' => '+7',
                                                                                            'olson_description' => 'Moscow+03 - Novosibirsk',
                                                                                            'timezone_name' => 'Asia/Novosibirsk'
-                                                                                         }
+                                                                                         },
                                                                                          {
                                                                                            'offset' => '+7',
                                                                                            'olson_description' => 'Moscow+03 - west Siberia',
