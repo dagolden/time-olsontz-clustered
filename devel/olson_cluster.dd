@@ -805,8 +805,13 @@ $VAR1 = {
                                        ],
                     'clusters' => {
                                     '2f1e6a1d5f745fab107ddb547522c654' => {
-                                                                            'description' => 'Bahia',
+                                                                            'description' => 'NE Brazil - Fortaleza, Recife',
                                                                             'zones' => [
+                                                                                         {
+                                                                                           'offset' => '-3',
+                                                                                           'olson_description' => 'NE Brazil (MA, PI, CE, RN, PB)',
+                                                                                           'timezone_name' => 'America/Fortaleza'
+                                                                                         },
                                                                                          {
                                                                                            'offset' => -3,
                                                                                            'olson_description' => 'Bahia',
@@ -832,15 +837,10 @@ $VAR1 = {
                                                                                            'olson_description' => 'Alagoas, Sergipe',
                                                                                            'timezone_name' => 'America/Maceio'
                                                                                          },
-                                                                                         {
-                                                                                           'offset' => '-3',
-                                                                                           'olson_description' => 'NE Brazil (MA, PI, CE, RN, PB)',
-                                                                                           'timezone_name' => 'America/Fortaleza'
-                                                                                         }
                                                                                        ]
                                                                           },
                                     '7721a853367328c157b2fe9fce88420e' => {
-                                                                            'description' => 'Mato Grosso do Sul',
+                                                                            'description' => 'Mato Grosso & Mato Grosso do Sul',
                                                                             'zones' => [
                                                                                          {
                                                                                            'offset' => -4,
@@ -855,7 +855,7 @@ $VAR1 = {
                                                                                        ]
                                                                           },
                                     'ae04560f0742ce04c55516065720b52d' => {
-                                                                            'description' => 'E Amazonas',
+                                                                            'description' => 'Amazonas, Acre',
                                                                             'zones' => [
                                                                                          {
                                                                                            'offset' => -4,
@@ -895,7 +895,7 @@ $VAR1 = {
                                                                                        ]
                                                                           },
                                     'c7b48f35fd4031aad6204e37853cd205' => {
-                                                                            'description' => 'S & SE Brazil (GO, DF, MG, ES, RJ, SP, PR, SC, RS)',
+                                                                            'description' => 'Brasilia',
                                                                             'zones' => [
                                                                                          {
                                                                                            'offset' => -3,
@@ -1897,18 +1897,18 @@ $VAR1 = {
                                        ],
                     'clusters' => {
                                     '12b93a93420453528cfc205febd360b5' => {
-                                                                            'description' => 'Kosrae',
+                                                                            'description' => 'Pohnpei',
                                                                             'zones' => [
+                                                                                         {
+                                                                                           'offset' => '+11',
+                                                                                           'olson_description' => 'Pohnpei (Ponape)',
+                                                                                           'timezone_name' => 'Pacific/Pohnpei'
+                                                                                         },
                                                                                          {
                                                                                            'offset' => '+11',
                                                                                            'olson_description' => 'Kosrae',
                                                                                            'timezone_name' => 'Pacific/Kosrae'
                                                                                          },
-                                                                                         {
-                                                                                           'offset' => '+11',
-                                                                                           'olson_description' => 'Pohnpei (Ponape)',
-                                                                                           'timezone_name' => 'Pacific/Pohnpei'
-                                                                                         }
                                                                                        ]
                                                                           },
                                     '57445e5cb03e7a352347d9206f987230' => {
