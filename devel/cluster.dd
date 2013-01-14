@@ -268,7 +268,6 @@ $VAR1 = {
           'AR' => {
                     'cluster_order' => [
                                          '2f1e6a1d5f745fab107ddb547522c654',
-                                         '7a1b129b41c2799408900ad957dcdd81'
                                        ],
                     'clusters' => {
                                     '2f1e6a1d5f745fab107ddb547522c654' => {
@@ -328,19 +327,14 @@ $VAR1 = {
                                                                                            'offset' => '-3',
                                                                                            'olson_description' => 'La Rioja (LR)',
                                                                                            'timezone_name' => 'America/Argentina/La_Rioja'
-                                                                                         }
-                                                                                       ]
-                                                                          },
-                                    '7a1b129b41c2799408900ad957dcdd81' => {
-                                                                            'description' => 'San Luis (SL)',
-                                                                            'zones' => [
+                                                                                         },
                                                                                          {
-                                                                                           'offset' => '',
+                                                                                           'offset' => '-3',
                                                                                            'olson_description' => 'San Luis (SL)',
                                                                                            'timezone_name' => 'America/Argentina/San_Luis'
                                                                                          }
                                                                                        ]
-                                                                          }
+                                                                          },
                                   },
                     'olson_name' => 'Argentina'
                   },
@@ -1739,7 +1733,7 @@ $VAR1 = {
                                                                             'description' => '',
                                                                             'zones' => [
                                                                                          {
-                                                                                           'offset' => '',
+                                                                                           'offset' => '+2',
                                                                                            'olson_description' => '',
                                                                                            'timezone_name' => 'Africa/Cairo'
                                                                                          }

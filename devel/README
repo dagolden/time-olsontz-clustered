@@ -1,0 +1,15 @@
+# README FOR GENERATING OLSON CLUSTERS
+
+## How to generate a cluster file:
+
+
+## How to convert cluster file to Sereal encoded version
+
+
+## Notes on manual adjustments:
+
+- America/Argentina/San_Luis time zone is broken; I manually grouped it with
+  the rest of Argentina and set its offset accordingly.
+
+- Africa/Egypt time zone is broken; I manually set its offset to +2
+
