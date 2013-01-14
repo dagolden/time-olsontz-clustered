@@ -5,7 +5,7 @@
 The 'olson.pl' program generates cluster and reverse map data structures in
 Data::Dumper format for manual update.
 
-  $ perl olson.pl
+  $ ./olson.pl
 
 In the future, it should be amended to try to preserve ordering information.
 E.g. if America/Chicago is the primary for the Central Time cluster, we'd like
@@ -32,4 +32,7 @@ As of January, 2013:
 ## How to convert cluster file to Sereal encoded version
 
 Run 'dd2slr.pl' on each .dd file to generate equivalent .srl files.
-Copy those into the main share directory.
+
+  $ ./dd2slr.pl *.dd
+
+Copy the outputs into the main share directory.

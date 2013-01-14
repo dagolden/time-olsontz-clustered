@@ -6,17 +6,26 @@ use autodie;
 use Path::Class;
 use Sereal::Encoder qw/encode_sereal/;
 
-my $infile = shift
-  or die "Usage: $0 <file>";
+unless (@ARGV) {
+    die "Usage: $0 <file>";
+}
 
-my $outfile = $infile;
-$outfile =~ s/\.dd$/.srl/;
+for my $infile (@ARGV) {
+    if ( !-r $infile ) {
+        warn "$infile not found or not readable";
+        next;
+    }
 
-my $data = do {
-  no strict;
-  eval file($infile)->slurp;
-};
-die $@ if $@;
+    my $outfile = $infile;
+    $outfile =~ s/\.dd$/.srl/;
 
-file($outfile)->spew( encode_sereal($data) );
+    my $data = do {
+        no strict;
+        eval file($infile)->slurp;
+    };
+    die $@ if $@;
+
+    say "Writing $outfile";
+    file($outfile)->spew( encode_sereal($data) );
+}
 
