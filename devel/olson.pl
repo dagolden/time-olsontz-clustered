@@ -10,6 +10,8 @@ use Digest::MD5 qw/md5_hex/;
 use List::AllUtils qw/min/;
 use Path::Class;
 
+$Data::Dumper::Sortkeys = 1;
+
 my @dst_dates = DateTime->now;
 for ( 1 .. 365 ) {
     push @dst_dates, $dst_dates[-1]->clone->add( days => 1 );
@@ -73,7 +75,13 @@ for my $code ( sort keys %$countries ) {
     ];
 }
 
-$Data::Dumper::Sortkeys = 1;
-file("olson_cluster.dd")->spew( Dumper( \%cluster ) );
-file("olson_reverse.dd")->spew( Dumper( \%reverse ) );
+my %output_map = (
+    'cluster.dd' => \%cluster,
+    'reverse.dd' => \%reverse,
+);
+
+while ( my ( $filename, $reference ) = each %output_map ) {
+    say "Writing $filename";
+    file($filename)->spew( Dumper($reference) );
+}
 
