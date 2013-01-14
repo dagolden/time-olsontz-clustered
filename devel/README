@@ -2,14 +2,34 @@
 
 ## How to generate a cluster file:
 
+The 'olson.pl' program generates cluster and reverse map data structures in
+Data::Dumper format for manual update.
 
-## How to convert cluster file to Sereal encoded version
+  $ perl olson.pl
 
+In the future, it should be amended to try to preserve ordering information.
+E.g. if America/Chicago is the primary for the Central Time cluster, we'd like
+to try to keep that and the description the same.
 
-## Notes on manual adjustments:
+## How to curate the cluster file:
+
+Review all countries with clusters with multiple zones.  Move the most
+significant zone to the beginning of the array.  Change the cluster
+description to represent the entire cluster.
+
+Review all multi-cluster countries, even if they have a single zone
+per cluster.  See if the descriptions can be updated in a useful way.
+
+### Notes on manual adjustments:
+
+As of January, 2013:
 
 - America/Argentina/San_Luis time zone is broken; I manually grouped it with
   the rest of Argentina and set its offset accordingly.
 
 - Africa/Egypt time zone is broken; I manually set its offset to +2
 
+## How to convert cluster file to Sereal encoded version
+
+Run 'dd2slr.pl' on each .dd file to generate equivalent .srl files.
+Copy those into the main share directory.

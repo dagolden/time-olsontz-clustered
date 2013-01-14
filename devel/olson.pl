@@ -2,15 +2,13 @@
 use v5.10;
 use strict;
 use warnings;
+use autodie;
 use Data::Dumper;
-use DateTime::Format::Natural;
 use DateTime::TimeZone::Olson qw/olson_country_selection olson_tz/;
 use DateTime;
 use Digest::MD5 qw/md5_hex/;
 use List::AllUtils qw/min/;
 use Path::Class;
-use Sereal qw/encode_sereal/;
-use autodie;
 
 my @dst_dates = DateTime->now;
 for ( 1 .. 365 ) {
@@ -42,6 +40,8 @@ my %reverse;
 for my $code ( sort keys %$countries ) {
     my $country_name = $countries->{$code}{olson_name};
     my $regions      = $countries->{$code}{regions};
+
+    # Cluster regions
     my %digests;
     for my $desc ( keys %$regions ) {
         my $zone = $regions->{$desc}{timezone_name};
@@ -58,6 +58,11 @@ for my $code ( sort keys %$countries ) {
           };
         $reverse{$zone} = [ $code, $digest ];
     }
+
+    # XXX should sort digest arrays based on current primary status and set description
+    # based on cluster for primary zone -- i.e. try to keep
+
+    # Assemble output for country
     $cluster{$code}{olson_name}    = $country_name;
     $cluster{$code}{clusters}      = \%digests;
     $cluster{$code}{cluster_order} = [
@@ -72,4 +77,3 @@ $Data::Dumper::Sortkeys = 1;
 file("olson_cluster.dd")->spew( Dumper( \%cluster ) );
 file("olson_reverse.dd")->spew( Dumper( \%reverse ) );
 
-##file("olson_cluster.srl")->spew( encode_sereal( \%cluster ) );
