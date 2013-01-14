@@ -1,0 +1,7 @@
+TODO
+
+- ensure all data returned is cloned
+- find_cluster(zone) -- reverse map to cluster
+- find_primary(zone) -- first entry from reverse_map to cluster
+- is_primary(zone) -- essentially zone eq is_primary(zone)
+- make caching optional
