@@ -22,7 +22,7 @@ for my $infile (@ARGV) {
 
     my $data = do {
         no strict;
-        eval file($infile)->slurp;
+        eval file($infile)->slurp( iomode => "<:encoding(UTF-8)" );
     };
     die $@ if $@;
 
