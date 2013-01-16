@@ -6,8 +6,8 @@ package Time::OlsonTZ::Clustered;
 # ABSTRACT: Olson time zone clusters based on similar offset and DST changes
 # VERSION
 
-use Sub::Exporter -setup =>
-  { exports => [qw/find_cluster find_primary is_primary primary_zones/] };
+use Sub::Exporter -setup => { exports =>
+      [qw/find_cluster find_primary is_primary primary_zones timezone_clusters/] };
 
 use File::ShareDir::Tarball qw/dist_file/;
 use Path::Class;
@@ -27,8 +27,8 @@ use Sereal::Decoder qw/decode_sereal/;
 
     sub _get_cluster {
         my ($code) = shift;
-        my $cluster = _clusters()->{$code};
-        return $cluster ? decode_sereal(encode_sereal($cluster)) : undef;
+        my $cluster = _clusters()->{uc $code};
+        return $cluster ? decode_sereal( encode_sereal($cluster) ) : undef;
     }
 
     sub _reverse_map {
@@ -69,6 +69,16 @@ sub is_primary {
 #--------------------------------------------------------------------------#
 # Functions operating on country codes
 #--------------------------------------------------------------------------#
+
+sub timezone_clusters {
+    my ($code) = @_;
+    my $country = _get_cluster($code)
+      or return [];
+    my $clusters = $country->{clusters};
+    my $order    = $country->{cluster_order};
+
+    return [ map { $clusters->{$_} } @$order ];
+}
 
 sub primary_zones {
     my ($code) = @_;
