@@ -6,7 +6,7 @@ use Test::Deep '!blessed';
 use Test::File::ShareDir -share =>
   { -dist => { 'Time-OlsonTZ-Clustered' => 'share' } };
 
-use Time::OlsonTZ::Clustered qw/primary_zones/;
+use Time::OlsonTZ::Clustered qw/:all/;
 
 my %country = (
     label    => 'Antarctic',
@@ -66,8 +66,33 @@ my %country = (
     ],
 );
 
+my $mcmurdo_cluster = {
+    'description' => 'McMurdo Station, Ross Island',
+    'zones'       => [
+        {
+            'offset'            => '+12',
+            'olson_description' => 'McMurdo Station, Ross Island',
+            'timezone_name'     => 'Antarctica/McMurdo'
+        },
+        {
+            'offset'            => '+12',
+            'olson_description' => 'Amundsen-Scott Station, South Pole',
+            'timezone_name'     => 'Antarctica/South_Pole'
+        }
+    ]
+};
+
 cmp_deeply( primary_zones( $country{code} ),
     $country{clusters}, "primary_zones('AQ')" );
+
+cmp_deeply( scalar find_cluster('Antarctica/McMurdo'),
+    $mcmurdo_cluster, "find cluster for McMurdo" );
+
+is( scalar find_primary('Antarctica/South_Pole'),
+    'Antarctica/McMurdo', "find primary for South Pole" );
+
+ok( is_primary("Antarctica/McMurdo"),     "McMurdo is primary" );
+ok( !is_primary("Antarctica/South_Pole"), "South_Pole is not primary" );
 
 done_testing;
 # COPYRIGHT

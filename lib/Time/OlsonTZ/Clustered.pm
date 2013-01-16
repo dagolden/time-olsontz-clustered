@@ -6,7 +6,8 @@ package Time::OlsonTZ::Clustered;
 # ABSTRACT: Olson time zone clusters based on similar offset and DST changes
 # VERSION
 
-use Sub::Exporter -setup => { exports => [qw/primary_zones/] };
+use Sub::Exporter -setup =>
+  { exports => [qw/find_cluster find_primary is_primary primary_zones/] };
 
 use File::ShareDir::Tarball qw/dist_file/;
 use Path::Class;
@@ -31,10 +32,42 @@ use Sereal::Decoder qw/decode_sereal/;
     }
 }
 
+#--------------------------------------------------------------------------#
+# Functions operating on zones
+#--------------------------------------------------------------------------#
+
+sub find_cluster {
+    my ($zone) = @_;
+    my $reverse = _reverse_map()->{$zone}
+      or return;
+    my ( $code, $digest ) = @$reverse;
+    my $country = _clusters()->{$code}
+      or return;
+    return $country->{clusters}{$digest};
+}
+
+sub find_primary {
+    my ($zone) = @_;
+    my $cluster = find_cluster($zone)
+      or return;
+    return $cluster->{zones}[0]{timezone_name};
+}
+
+sub is_primary {
+    my ($zone) = @_;
+    my $primary = find_primary($zone) || '';
+    return $primary eq $zone;
+}
+
+#--------------------------------------------------------------------------#
+# Functions operating on country codes
+#--------------------------------------------------------------------------#
+
 sub primary_zones {
     my ($code) = @_;
 
-    my $country      = _clusters()->{$code};
+    my $country = _clusters()->{$code}
+      or return [];
     my $clusters     = $country->{clusters};
     my $order        = $country->{cluster_order};
     my $country_name = $country->{olson_name};
