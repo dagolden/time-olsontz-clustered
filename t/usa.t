@@ -209,8 +209,10 @@ my $us_clusters = [
     },
 ];
 
+is( country_name("US"), "United States", "country_name is right" );
 cmp_deeply( timezone_clusters('US'), $us_clusters, "US timezone clusters" );
-cmp_deeply( timezone_clusters('uS'), $us_clusters, "country code is case insensitive" );
+cmp_deeply( timezone_clusters('uS'), $us_clusters,
+    "country code is case insensitive" );
 
 done_testing;
 # COPYRIGHT
