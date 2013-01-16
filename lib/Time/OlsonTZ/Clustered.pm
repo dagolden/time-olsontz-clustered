@@ -27,7 +27,7 @@ use Sereal::Decoder qw/decode_sereal/;
 
     sub _get_cluster {
         my ($code) = shift;
-        my $cluster = _clusters()->{uc $code};
+        my $cluster = _clusters()->{ uc $code };
         return $cluster ? decode_sereal( encode_sereal($cluster) ) : undef;
     }
 
@@ -40,45 +40,8 @@ use Sereal::Decoder qw/decode_sereal/;
 }
 
 #--------------------------------------------------------------------------#
-# Functions operating on zones
+# high level functions
 #--------------------------------------------------------------------------#
-
-sub find_cluster {
-    my ($zone) = @_;
-    my $reverse = _reverse_map()->{$zone}
-      or return;
-    my ( $code, $digest ) = @$reverse;
-    my $country = _get_cluster($code)
-      or return;
-    return $country->{clusters}{$digest};
-}
-
-sub find_primary {
-    my ($zone) = @_;
-    my $cluster = find_cluster($zone)
-      or return;
-    return $cluster->{zones}[0]{timezone_name};
-}
-
-sub is_primary {
-    my ($zone) = @_;
-    my $primary = find_primary($zone) || '';
-    return $primary eq $zone;
-}
-
-#--------------------------------------------------------------------------#
-# Functions operating on country codes
-#--------------------------------------------------------------------------#
-
-sub timezone_clusters {
-    my ($code) = @_;
-    my $country = _get_cluster($code)
-      or return [];
-    my $clusters = $country->{clusters};
-    my $order    = $country->{cluster_order};
-
-    return [ map { $clusters->{$_} } @$order ];
-}
 
 sub primary_zones {
     my ($code) = @_;
@@ -101,6 +64,43 @@ sub primary_zones {
         push @zones, \%primary;
     }
     return \@zones;
+}
+
+sub find_primary {
+    my ($zone) = @_;
+    my $cluster = find_cluster($zone)
+      or return;
+    return $cluster->{zones}[0]{timezone_name};
+}
+
+sub is_primary {
+    my ($zone) = @_;
+    my $primary = find_primary($zone) || '';
+    return $primary eq $zone;
+}
+
+#--------------------------------------------------------------------------#
+# lower level functions
+#--------------------------------------------------------------------------#
+
+sub timezone_clusters {
+    my ($code) = @_;
+    my $country = _get_cluster($code)
+      or return [];
+    my $clusters = $country->{clusters};
+    my $order    = $country->{cluster_order};
+
+    return [ map { $clusters->{$_} } @$order ];
+}
+
+sub find_cluster {
+    my ($zone) = @_;
+    my $reverse = _reverse_map()->{$zone}
+      or return;
+    my ( $code, $digest ) = @$reverse;
+    my $country = _get_cluster($code)
+      or return;
+    return $country->{clusters}{$digest};
 }
 
 1;
