@@ -21,5 +21,10 @@ my @country_codes = qw( AD AE AF AG AI AL AM AO AQ AR AS AT AU AW AX AZ BA BB
 
 cmp_deeply( [ country_codes() ], \@country_codes, "country code list correct" );
 
+is( country_name("xx"), '', "bad country_name() returns empty string" );
+
+is_deeply( primary_zones("xx"), [], "bad primary_zones() returns empty array" );
+is_deeply( timezone_clusters("xx"), [], "bad primary_zones() returns empty array" );
+
 done_testing;
 # COPYRIGHT
