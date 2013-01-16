@@ -130,7 +130,7 @@ sub find_primary {
     return $cluster->{zones}[0]{timezone_name};
 }
 
-=func is_primary {
+=func is_primary
 
     if ( is_primary("America/Chicago") ) { ... }
 
@@ -376,7 +376,7 @@ The author would like to thank the following people for their help:
 
 =for :list
 * Andrew Main (ZEFRAM) for his time zone modules and advice on zone clustering heuristics.
-* Breno Olivera (GARU) for his patient explanations and advice regarding Brazilian time zones.
+* Breno G. de Oliveira (GARU) for his patient explanations and advice regarding Brazilian time zones.
 
 Any errors are solely those of the author (or the upstream Olson database).
 

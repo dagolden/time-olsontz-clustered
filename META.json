@@ -65,7 +65,7 @@
    "provides" : {
       "Time::OlsonTZ::Clustered" : {
          "file" : "lib/Time/OlsonTZ/Clustered.pm",
-         "version" : "0.001"
+         "version" : "0.002"
       }
    },
    "release_status" : "stable",
@@ -80,6 +80,6 @@
          "web" : "https://github.com/dagolden/time-olsontz-clustered"
       }
    },
-   "version" : "0.001"
+   "version" : "0.002"
 }
 
