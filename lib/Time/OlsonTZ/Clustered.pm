@@ -11,6 +11,7 @@ use Sub::Exporter -setup =>
 
 use File::ShareDir::Tarball qw/dist_file/;
 use Path::Class;
+use Sereal::Encoder qw/encode_sereal/;
 use Sereal::Decoder qw/decode_sereal/;
 
 {
@@ -22,6 +23,12 @@ use Sereal::Decoder qw/decode_sereal/;
         my $file = dist_file( 'Time-OlsonTZ-Clustered', 'cluster.srl' )
           or die "Can't find cluster.srl in distribution share data";
         $clusters = decode_sereal( scalar file($file)->slurp );
+    }
+
+    sub _get_cluster {
+        my ($code) = shift;
+        my $cluster = _clusters()->{$code};
+        return $cluster ? decode_sereal(encode_sereal($cluster)) : undef;
     }
 
     sub _reverse_map {
@@ -41,7 +48,7 @@ sub find_cluster {
     my $reverse = _reverse_map()->{$zone}
       or return;
     my ( $code, $digest ) = @$reverse;
-    my $country = _clusters()->{$code}
+    my $country = _get_cluster($code)
       or return;
     return $country->{clusters}{$digest};
 }
@@ -66,7 +73,7 @@ sub is_primary {
 sub primary_zones {
     my ($code) = @_;
 
-    my $country = _clusters()->{$code}
+    my $country = _get_cluster($code)
       or return [];
     my $clusters     = $country->{clusters};
     my $order        = $country->{cluster_order};
