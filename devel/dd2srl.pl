@@ -3,6 +3,7 @@ use v5.10;
 use strict;
 use warnings;
 use autodie;
+use utf8::all;
 use Path::Class;
 use Sereal::Encoder qw/encode_sereal/;
 

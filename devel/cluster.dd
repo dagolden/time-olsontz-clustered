@@ -799,7 +799,7 @@ $VAR1 = {
                                        ],
                     'clusters' => {
                                     '2f1e6a1d5f745fab107ddb547522c654' => {
-                                                                            'description' => 'NE Brazil - Fortaleza, Recife',
+                                                                            'description' => 'Região Nordeste - Fortaleza, Recife',
                                                                             'zones' => [
                                                                                          {
                                                                                            'offset' => '-3',
@@ -879,7 +879,7 @@ $VAR1 = {
                                                                                        ]
                                                                           },
                                     'c50e797cf1c1bf8e1aea8efafbbab20e' => {
-                                                                            'description' => 'Atlantic islands',
+                                                                            'description' => 'Fernando de Noronha',
                                                                             'zones' => [
                                                                                          {
                                                                                            'offset' => -2,
@@ -889,7 +889,7 @@ $VAR1 = {
                                                                                        ]
                                                                           },
                                     'c7b48f35fd4031aad6204e37853cd205' => {
-                                                                            'description' => 'Brasilia',
+                                                                            'description' => 'Horário de Brasília',
                                                                             'zones' => [
                                                                                          {
                                                                                            'offset' => -3,
