@@ -51,11 +51,11 @@ use Sereal::Decoder qw/decode_sereal/;
     my $zones = primary_zones('US');
 
 Takes a country code and returns a reference to an array of hash references.
-Each element in the array represents one timezone cluster in the country.
-The hash reference contains the following keys:
+Each element in the array represents one timezone cluster in the country,
+sorted by UTC offset.  The hash reference contains the following keys:
 
 =for :list
-* description: Description of the zone or the Olson country name if there only one cluster
+* description: Description of the zone or the Olson country name if there is only one cluster
 * offset: UTC offset, expressed in hours ('+5', '-2')
 * timezone_name: the primary Olson zone name for the cluster ('America/Chicago')
 
@@ -169,8 +169,8 @@ sub country_codes {
     my $name = country_name("US");
 
 Returns the Olson country name (or an empty string)
-for a given country code.  This duplicate information
-available elsewhere and is provided her for convenience.
+for a given country code.  This duplicates information
+available elsewhere and is provided here for convenience.
 
 =cut
 
@@ -308,13 +308,62 @@ sub find_cluster {
 
 =head1 DESCRIPTION
 
-This module might be cool, but you'd never know it from the lack
-of documentation.
+There are over 400 Olson time zone names (e.g. "America/New_York")
+describing current and historical offset and daylight-savings behavior.  While
+this is essential for accurate calculations involving times in the
+past, it is an overwhelming list to present as part of a user experience
+current behavior is relevant. (E.g. "Choose your time zone")
+
+For example, China has had only one official time (UTC+8) since 1949, but there
+are five Olson time zones corresponding to historical districts:
+
+    Asia/Shanghai
+    Asia/Chongqing
+    Asia/Kashgar
+    Asia/Urumqi
+    Asia/Harbin
+
+When presenting a list of time zone choices, there are many situations in which
+it is sufficient to present "Asia/Shanghai" for China.  Likewise, the United
+States has consolidated some of its historically fragmented time zone
+observance.  Instead of asking someone if they are in
+"America/Indiana/Indianapolis", it is sufficient to ask them to pick
+"America/New_York" (a.k.a. "US Eastern Time").
+
+This module provides a pre-calculated clustering the 400+ Olson time zones by
+country and by time observance behavior, allowing a consolidated list of
+"primary zones" to be offered for each country.
+
+The clustering was developed using the following heuristics and modifications:
+
+=for :list
+* For each country, cluster time zones by observance behavior
+* Zones cluster together if they have the same UTC offset at local noon for the next 365 days
+* If a cluster contains multiple zones, the author selected a primary zone using research and judgment
+* Multiple-zone clusters were given a descriptive name
+
+Cluster descriptions were based on either the primary zone description (the
+Olson 'region_description' field) -- e.g. "McMurdo Station, Ross Island" for
+the cluster containing "Antartica/McMurdo" and "Antarctica/South_Pole" -- or else
+a subjectively-determined, broadly descriptive term common across the zones
+-- e.g. "Central time" for various US zones with a UTC-6 offset.
+
+When a country had a single cluster, the cluster description was left blank,
+similar to how the Olson database leaves the time zone description blank.
+(N.B. the C<primary_zones()> function returns the country name when there is no
+cluster description.)
+
+Some additional modifications were made to account for errors in the Olson time
+zone files.
+
+Cluster names were made on a best-efforts basis by the author.  If you have
+suggested improvements, please file a bug report with your ideas.
+
+The clustering will be updated over time as the Olson time zone database changes.
 
 =head1 USAGE
 
-All functions are optionally exported using L<Sub::Exporter>.  See
-individual function descriptions for details.
+All functions are optionally exported using L<Sub::Exporter>.
 
 =head1 SEE ALSO
 
